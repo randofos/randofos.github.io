@@ -1,0 +1,16 @@
+{
+  "title": "Thorndale",
+  "type": "locations",
+  "statistics": {
+    "Climate":  "Temperate",
+    "Size": "Village",
+    "Unique characters": "5",
+    "Locations": "\"Frederick's\" (General Store), Lisa's home",
+    "Enemy Types": "Rat, Bat, Slime"
+  },
+  "content": [
+    "A humble village in the southern part of the island, Thorndale is one of the first places that adventurers finds themselves in. The location itself isn't near any important resources, but a lot of trade goes through this village.",
+    "<h2>Characters</h2><a href=\"characters_frederick.html\">Frederick</a> is the owner of the general store. It has no real name, but everyone refers to it as \"Frederick's\".",
+    "<a href=\"characters_mother_lisa.html\">Mother Lisa</a> lives here with her two sons, Charlie and Edmund. She's had a problem with rats infesting their grain storage, which will prove a problem when winter comes."
+  ]
+}

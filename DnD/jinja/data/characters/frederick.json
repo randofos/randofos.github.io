@@ -1,0 +1,13 @@
+{
+  "title": "Frederick",
+  "type": "characters",
+  "statistics": {
+    "Age": "43",
+    "Gender": "Male",
+    "Alignment": "LG",
+    "Location": "<a href=\"locations_thorndale.html\">Thorndale</a>",
+    "Personality": "Welcoming, Kind",
+    "Agenda": "Glad to help the adventurers, but wants to stay out of harm's way"
+  },
+  "content": ["Frederick lives in Thorndale and runs a general store that holds his name."]
+}

@@ -1,0 +1,126 @@
+@media (max-width: 850px) {
+    header li {
+        font-size: 16pt;
+    }
+
+    div {
+        float: left;
+        width: auto;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 1120px) {
+    header li {
+        display: inline;
+        font-size: 20pt;
+    }
+
+    div {
+        float: inline-end;
+        width: 350px;
+    }
+}
+
+@media (min-width: 1121px) {    
+    header li {
+        display: inline;
+        font-size: 32pt;
+    }
+
+    div {
+        float: inline-end;
+        width: 500px;
+    }
+}
+
+html {
+    background-color: antiquewhite;
+    color: #281010;
+    height: 100%;
+    font-size: 24pt;
+    font-family: "Grenze", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: "- ";
+}
+
+header {
+    padding: 15px 0px;
+    border-bottom: 3px burlywood solid;
+}
+
+
+header ul, div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li a {
+    color: #281010;
+    padding: 10px 50px 10px 0px;
+}
+
+header li a.active {
+    color: firebrick !important;
+}
+
+header li a:hover {
+    color: firebrick !important;
+}
+
+body {
+    padding: 25px 100px;
+}
+
+img {
+    max-width: 400px;
+    max-height: 600px;
+}
+
+h1, .nav {
+    font-family: "Grenze Gotisch", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1, h2 {
+    color: firebrick;
+}
+
+h1 {
+    font-size: 64pt;
+    text-shadow: 2px 3px darkred;
+}
+
+h2 {
+    font-size: 32pt;
+    margin-block-end: 0em;
+    text-shadow: 1px 1px darkred;
+}
+
+a {
+    font-weight: bold;
+    color: firebrick;
+}
+
+a:hover {
+    color: red;
+}
+
+div {
+    margin: 0px 0px 25px 25px;
+    padding: 25px;
+    background-color: peachpuff;
+    box-shadow: 15px 15px burlywood;
+    outline: 10px peachpuff solid;
+    border: 5px firebrick double;
+}

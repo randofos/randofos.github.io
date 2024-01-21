@@ -1,0 +1,29 @@
+{% macro header(active) -%}
+        <header>
+            <ul>
+                <li><a {% if active=='home' %}class="active"{% endif %} href="index.html">Home</a></li>
+                <li><a {% if active=='locations' %}class="active"{% endif %} href="locations.html">Locations</a></li>
+                <li><a {% if active=='characters' %}class="active"{% endif %} href="characters.html">Characters</a></li>
+                <li><a {% if active=='items' %}class="active"{% endif %} href="items.html">Items</a></li>
+                <li><a {% if active=='notes' %}class="active"{% endif %} style="padding: 10px 0px;" href="notes.html">Notes</a></li>
+            </ul>
+        </header>
+{%- endmacro %}
+
+{% macro statistics(entries) -%}
+        <div>
+            <ul>
+            {%- for key, value in entries.items() %}
+                <li><b>{{ key }}</b>: {{ value }}</li>
+            {%- endfor %}
+            </ul>
+        </div>
+{%- endmacro %}
+
+{% macro subpage_list(subpages) -%}
+        <ul>
+        {%- for subpage in subpages|sort %}
+            <li><a href="{{ data["type"] }}_{{ subpage }}.html">{{ subpage|replace("_", " ")|capitalize }}</a></li>
+        {%- endfor %}
+        </ul>
+{%- endmacro %}
