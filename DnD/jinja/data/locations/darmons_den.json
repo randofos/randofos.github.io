@@ -1,0 +1,15 @@
+{
+  "title": "Darmon's Den",
+  "type":  "locations",
+  "statistics": {
+    "Miljö":       "Underjordisk",
+    "Storlek":     "Större by",
+    "Karaktärer":  "<a href=\"characters_.html\"></a>",
+    "Platser":     "<a href=\"locations_.html\"></a>",
+    "Fiendetyper": ""
+  },
+  "content": [
+    "Darmon's Den är en mindre stad belägrad i den södra bergskedjans vägg. Här inne finner du invånare som föredrar grottornas fuktiga dunkel över den täta skogens dagsljus.",
+    "Dvärgar och gnomer har länge bebott dessa salar, och platsen var från början endast ett stentag till byggandet av <a href=\"locations_hazelwatch.html\">Hazelwatch</a>. Allteftersom utvinnandet flyttades djupare in i berget så började folk att bosätta sig här, dels för att minska restiden, men också för den behagliga miljön."
+  ]
+}

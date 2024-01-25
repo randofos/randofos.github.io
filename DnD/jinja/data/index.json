@@ -1,5 +1,10 @@
 {
-  "title": "Home",
+  "title": "Myth of the Sailor's Saint",
   "type": "home",
-  "content": ["Welcome to this webpage!<br>This will be a wiki for my campaign.", "<h2>Navigation</h2>Each main page lists all pages of that category."]
+  "content": [
+    "Välkommen till denna hemsida! Här kommer en wiki att skapas för min kampanj.", 
+    "<h2>Sammanfattning</h2>Äventyret börjar för samtliga på <a href=\"characters_kapten_kreuz.html\">Kapten Kreuzs</a> båt, som tar dem till ön 'Sailor's Saint', så kallad för att ön ofta är det första en seglare ser när de närmar sig fastlandet.",
+    "Samtliga i gänget återfinns på denna båt för att de ska avtjäna ett straff. Inga av dem har haft dåliga intentioner, men har istället funnit sig i situationer som har lett dem hit. För att inte stämplas som kriminella har de valt att tjänstgöra under kronan, och det är därför de sitter på denna båt.",
+    "Kungadömet har nyligen startat en mycket lukrativ gruva på ön. Framgången har varit explosionsartad, vilket har lett till både myter och konspirationer om gruvans innehåll. Tyvärr har detta rykte också gett upphov till stölder, så kronan har därför satt in de som är dugliga i strid att garantera att leveranserna kommer fram som de ska."
+  ]
 }

@@ -1,11 +1,11 @@
 {% macro header(active) -%}
         <header>
             <ul>
-                <li><a {% if active=='home' %}class="active"{% endif %} href="index.html">Home</a></li>
-                <li><a {% if active=='locations' %}class="active"{% endif %} href="locations.html">Locations</a></li>
-                <li><a {% if active=='characters' %}class="active"{% endif %} href="characters.html">Characters</a></li>
-                <li><a {% if active=='items' %}class="active"{% endif %} href="items.html">Items</a></li>
-                <li><a {% if active=='notes' %}class="active"{% endif %} style="padding: 10px 0px;" href="notes.html">Notes</a></li>
+                <li><a {% if active=='home' %}class="active"{% endif %} href="index.html">Hem</a></li>
+                <li><a {% if active=='locations' %}class="active"{% endif %} href="locations.html">Platser</a></li>
+                <li><a {% if active=='characters' %}class="active"{% endif %} href="characters.html">Karaktärer</a></li>
+                <li><a {% if active=='items' %}class="active"{% endif %} href="items.html">Föremål</a></li>
+                <li><a {% if active=='notes' %}class="active"{% endif %} style="padding: 10px 0px;" href="notes.html">Anteckningar</a></li>
             </ul>
         </header>
 {%- endmacro %}

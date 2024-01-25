@@ -1,5 +1,17 @@
 {
-  "title": "Locations",
+  "title": "Platser",
   "type": "locations",
-  "subpages": ["thorndale"]
+  "subpages": [
+    "thorndale", 
+    "faldor_bay", 
+    "hazelwatch", 
+    "sailors_baby", 
+    "ruins_of_khaarnash", 
+    "darmons_den", 
+    "bards_throat", 
+    "fablegrove", 
+    "the_corridor", 
+    "dukes_port", 
+    "royal_mines"
+  ]
 }

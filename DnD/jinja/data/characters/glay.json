@@ -1,0 +1,12 @@
+{
+  "title": "Glay",
+  "type":  "characters",
+  "statistics": {
+    "Ålder":        "58",
+    "Attityd":      "NG",
+    "Plats":        "<a href=\"locations_faldor_bay.html\">Faldor Bay</a>",
+    "Personlighet": "Vresig, Förbiseende",
+    "Agenda":       ""
+  },
+  "content": []
+}

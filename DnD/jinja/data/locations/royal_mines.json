@@ -1,0 +1,14 @@
+{
+  "title": "Royal Mines",
+  "type":  "locations",
+  "statistics": {
+    "Miljö":       "Underjordisk",
+    "Storlek":     "Stor",
+    "Karaktärer":  "<a href=\"characters_.html\"></a>",
+    "Platser":     "<a href=\"locations_.html\"></a>",
+    "Fiendetyper": ""
+  },
+  "content": [
+    "Royal Mines är den gruva som hastigt satts i drift när det hittades värdefulla kristaller på platsen. Det är transporten av gruvans skatter som ska garanteras av äventyrarna."
+  ]
+}

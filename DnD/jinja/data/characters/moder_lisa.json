@@ -1,0 +1,15 @@
+{
+  "title": "Moder Lisa",
+  "type": "characters",
+  "statistics": {
+    "Ålder": "36",
+    "Attityd": "LN",
+    "Plats": "<a href=\"locations_thorndale.html\">Thorndale</a>",
+    "Personlighet": "Tillbakadragen, Misstänksam",
+    "Agenda": "Föredrar att leva ett isolerat liv med sin familj, och ber endast om hjälp av ren desperation."
+  },
+  "content": [
+    "Moder Lisa är i desperat behov av någon som kan lösa det råttproblem som hotar att förstöra hennes grödförråd inför vintern.<br>Hennes största oro är hur hennes barn ska klara sig utan en säker källa till mat.",
+    "Hon äger inte mycket, men kan unna äventyrarna ett guldmynt vardera för besväret."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Ormos of Darmos",
+  "type":  "characters",
+  "statistics": {
+    "Ålder":        "71",
+    "Attityd":      "CG",
+    "Plats":        "<a href=\"locations_hazelwatch.html\"></a>",
+    "Personlighet": "Vis, Återhållsam, Livserfaren, Konservativ",
+    "Agenda":       "Anser att utvecklingen med gruvan rubbar den balans som etablerats i regionen."
+  },
+  "content": []
+}

@@ -13,17 +13,19 @@ def main():
     template  = env.get_template("base.jinja")
     for subdirectory, directories, files in os.walk(directory):
         for filename in files:
+            if filename.startswith("_"):
+                continue
             file_path = os.path.join(subdirectory, filename)
             print("Generating "+filename)
             if os.path.isfile(file_path):
                 sub_path    = subdirectory.removeprefix(directory)
-                data_file   = open(file_path)
+                data_file   = open(file_path, encoding='utf-8')
                 if sub_path:
                     sub_path = sub_path.removeprefix("\\")
                     output_file = open(sub_path + "_" + filename.rsplit(".")[0] + ".html", "wb")
                 else:
                     output_file = open(filename.split(".")[0] + ".html", "wb")
-                output_file.write(template.render(data=json.load(data_file)).encode('utf-8'))
+                output_file.write(template.render(data=json.load(data_file, )).encode('utf-8'))
                 output_file.close()
                 data_file.close()
 

@@ -1,0 +1,14 @@
+{
+  "title": "The Corridor",
+  "type":  "locations",
+  "statistics": {
+    "Miljö":       "Torr, plan slättmark",
+    "Storlek":     "Lång",
+    "Karaktärer":  "<a href=\"characters_.html\"></a>",
+    "Platser":     "<a href=\"locations_.html\"></a>",
+    "Fiendetyper": ""
+  },
+  "content": [
+    "The Corridor syftar på den raka väg som väntar alla som ska ta sig till <a href=\"locations_hazelwatch.html\">Hazelwatch</a>."
+  ]
+}

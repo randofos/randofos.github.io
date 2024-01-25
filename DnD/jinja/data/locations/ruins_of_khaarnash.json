@@ -1,0 +1,14 @@
+{
+  "title": "Ruins of Khaarnash",
+  "type":  "locations",
+  "statistics": {
+    "Miljö":       "Tät skog",
+    "Storlek":     "Stad (ruin)",
+    "Karaktärer":  "<a href=\"characters_.html\"></a>",
+    "Platser":     "",
+    "Fiendetyper": ""
+  },
+  "content": [
+    "Ruinerna av den en gång ståtliga staden Khaarnash."
+  ]
+}

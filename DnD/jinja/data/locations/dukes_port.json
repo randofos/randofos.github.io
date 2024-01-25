@@ -1,0 +1,15 @@
+{
+  "title": "Duke's Port",
+  "type":  "locations",
+  "statistics": {
+    "Miljö":       "Kustväder, omgivet av tät skog",
+    "Storlek":     "By",
+    "Karaktärer":  "<a href=\"characters_.html\"></a>",
+    "Platser":     "",
+    "Fiendetyper": ""
+  },
+  "content": [
+    "Duker's Port är den planerade port som ska byggas på öns östra kust. Detta för att kunna öka volymen på transporter till och från <a href=\"locations_royal_mines.html\">Royal Mines</a>.",
+    "Arbetet på detta är precis i sin begynnelse, men planerna är redan storslagna. Arbetskraften är överdimensionerad för att korta ner byggtiden, och kring den tilltänkta hamnen kommer en by med det väsentliga att byggas parallellt."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Godsherre Miron",
+  "type":  "characters",
+  "statistics": {
+    "Ålder":        "47",
+    "Attityd":      "CN",
+    "Plats":        "<a href=\"locations_faldor_bay.html\">Faldor Bay</a>",
+    "Personlighet": "Arrogant",
+    "Agenda":       ""
+  },
+  "content": []
+}

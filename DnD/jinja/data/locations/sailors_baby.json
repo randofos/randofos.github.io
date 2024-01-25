@@ -1,0 +1,15 @@
+{
+  "title": "Sailor's Baby",
+  "type":  "locations",
+  "statistics": {
+    "Miljö":       "Blåsigt, Stenigt",
+    "Storlek":     "Liten ö",
+    "Karaktärer":  "<a href=\"characters_.html\"></a>",
+    "Platser":     "",
+    "Fiendetyper": ""
+  },
+  "content": [
+    "Sailor's Baby är en liten ö, rakt ut från <a href=\"locations_faldor_bay.html\">Faldor Bay</a>. Den har fått sitt namn då den räknas till Sailor's Saint och är betydligt mindre.",
+    "Den karga marken och havsvindarna gör att få växter kan överleva här. Det har istället blivit en trygg viloplats för havsfåglar, som stundtals nästan täcker öns yta."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Beor Goldenspire",
+  "type":  "characters",
+  "statistics": {
+    "Ålder":        "48",
+    "Attityd":      "LG",
+    "Plats":        "<a href=\"locations_hazelwatch.html\"></a>",
+    "Personlighet": "Stolt, Förtroendeingivande, Stoisk",
+    "Agenda":       "Anser att Hazelwatch har fått det kortaste stråt, och anser att de har fått svårare att uppfylla sitt originella syfte."
+  },
+  "content": []
+}
