@@ -1,6 +1,6 @@
 @media (max-width: 850px) {
     html {
-        font-size: 12pt;
+        font-size: 14pt;
     }
 
     header li {
@@ -8,12 +8,19 @@
     }
 
     body {
-        padding: 25px;
+        margin: 25px;
     }
 
-    div {
-        float: center;
-        width: inherit;
+    div, main img {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    div img {
+        max-width: 200px;
+        width: -webkit-fill-available;
     }
 
     h1 {
@@ -26,7 +33,7 @@
     }
 }
 
-@media (min-width: 851px) and (max-width: 1120px) {
+@media (min-width: 851px) and (max-width: 1200px) {
     html {
         font-size: 16pt;
     }
@@ -37,12 +44,17 @@
     }
 
     body {
-        padding: 25px 50px;
+        margin: 25px 50px;
     }
 
-    div {
+    div, main img{
+        margin: 0px 0px 25px 25px;
         float: inline-end;
         width: 350px;
+    }
+
+    div img {
+        max-width: 250px;
     }
 
     h1 {
@@ -56,9 +68,10 @@
     }
 }
 
-@media (min-width: 1121px) {    
+@media (min-width: 1201px) {    
     html {
         font-size: 24pt;
+        max-width: 1600px;
     }
 
     header li {
@@ -67,12 +80,17 @@
     }
 
     body {
-        padding: 25px 100px;
+        margin: 25px 100px;
     }
 
-    div {
+    div, main img {
+        margin: 0px 0px 25px 25px;
         float: inline-end;
         width: 500px;
+    }
+
+    div img {
+        max-width: 300px;
     }
 
     h1 {
@@ -86,10 +104,14 @@
     }    
 }
 
+body {
+    min-height: inherit;
+}
+
 html {
+    min-height: 100vh;
     background-color: antiquewhite;
     color: #281010;
-    height: 100%;
     font-family: "Grenze", serif;
     font-weight: 400;
     font-style: normal;
@@ -131,11 +153,6 @@ header li a:hover {
     color: firebrick !important;
 }
 
-img {
-    max-width: 400px;
-    max-height: 600px;
-}
-
 h1, .nav {
     font-family: "Grenze Gotisch", serif;
     font-optical-sizing: auto;
@@ -161,10 +178,23 @@ a:hover {
 }
 
 div {
-    margin: 0px 0px 25px 25px;
     padding: 25px;
     background-color: peachpuff;
     box-shadow: 15px 15px burlywood;
     outline: 10px peachpuff solid;
     border: 5px firebrick double;
+}
+
+div img {
+    height: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-bottom: 5px firebrick double;
+}
+
+main img {
+    border: 3px burlywood solid;
+    object-fit: cover;
 }

@@ -1,6 +1,7 @@
 {
   "title": "Platser",
   "type": "locations",
+  "main_img": "starting_map_v2",
   "subpages": [
     "thorndale", 
     "faldor_bay", 

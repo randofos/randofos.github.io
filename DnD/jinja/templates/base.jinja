@@ -17,6 +17,9 @@
             {{ component.statistics(data['statistics']) }}
         {%- endif %}
         <main>
+        {% if data['main_img'] -%}
+            <a href="res/img/{{ data['main_img'] }}.png"><img src="res/img/{{ data['main_img'] }}_small.png"></a>
+        {%- endif %}
         {% if data['content'] -%}
         {%- for paragraph in data['content'] %}
             <p>{{ paragraph }}</p>

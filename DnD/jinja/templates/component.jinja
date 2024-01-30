@@ -12,9 +12,14 @@
 
 {% macro statistics(entries) -%}
         <div>
+            {%- if 'icon' in entries.keys() %}
+            <img src="res/img/{{ entries.get('icon') }}">
+            {%- endif %}
             <ul>
             {%- for key, value in entries.items() %}
+                {% if not key == 'icon' %}
                 <li><b>{{ key }}</b>: {{ value }}</li>
+                {% endif %}
             {%- endfor %}
             </ul>
         </div>

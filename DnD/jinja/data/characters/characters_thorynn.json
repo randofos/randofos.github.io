@@ -1,0 +1,12 @@
+{
+  "title": "Thorynn the Stranger",
+  "type":  "characters",
+  "statistics": {
+    "Ålder":        "",
+    "Attityd":      "LG",
+    "Plats":        "<a href=\"locations_the_corridor.html\">The Corridor</a>",
+    "Personlighet": "CN",
+    "Agenda":       ""
+  },
+  "content": []
+}

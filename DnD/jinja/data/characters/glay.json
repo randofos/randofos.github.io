@@ -6,7 +6,8 @@
     "Attityd":      "NG",
     "Plats":        "<a href=\"locations_faldor_bay.html\">Faldor Bay</a>",
     "Personlighet": "Vresig, Förbiseende",
-    "Agenda":       ""
+    "Agenda":       "",
+    "icon":         "glay.png"
   },
   "content": []
 }

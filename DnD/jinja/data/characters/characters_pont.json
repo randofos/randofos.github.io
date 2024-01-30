@@ -1,0 +1,13 @@
+{
+  "title": "Pont",
+  "type":  "characters",
+  "statistics": {
+    "Ålder":        "\"14\"",
+    "Ras":          "\"Människa\"",
+    "Attityd":      "\"LG\"",
+    "Plats":        "<a href=\"locations_bards_throat.html\"></a>",
+    "Personlighet": "Passiv, Fåordig, Charmig, Smått märklig",
+    "Agenda":       "Vill följa med gruppen till en människoby (där han kan stjäla smycken och blänkande ting)"
+  },
+  "content": []
+}

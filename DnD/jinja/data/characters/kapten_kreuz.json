@@ -6,7 +6,8 @@
     "Attityd":      "LG",
     "Plats":        "<a href=\"locations_faldor_bay.html\">Faldor Bay</a>",
     "Personlighet": "Stolt, Faderlig, Hjälpsam",
-    "Agenda":       ""
+    "Agenda":       "",
+    "icon":         "kapten_kreuz.png"
   },
   "content": []
 }
