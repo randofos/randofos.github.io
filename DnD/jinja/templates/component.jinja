@@ -28,7 +28,7 @@
 {% macro subpage_list(subpages) -%}
         <ul>
         {%- for subpage in subpages|sort %}
-            <li><a href="{{ data["type"] }}_{{ subpage }}.html">{{ subpage|replace("_", " ")|capitalize }}</a></li>
+            <li><a href="{{ data["type"] }}_{{ subpage }}.html">{{ subpage|replace("_", " ")|title }}</a></li>
         {%- endfor %}
         </ul>
 {%- endmacro %}

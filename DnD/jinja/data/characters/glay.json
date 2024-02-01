@@ -6,8 +6,8 @@
     "Attityd":      "NG",
     "Plats":        "<a href=\"locations_faldor_bay.html\">Faldor Bay</a>",
     "Personlighet": "Vresig, Förbiseende",
-    "Agenda":       "",
+    "Agenda":       "Lägger sig gärna i andras ensak.",
     "icon":         "glay.png"
   },
-  "content": []
+  "content": ["Glay äger den lokala pubben i Faldor Bay, som även hyser enklare rum för övernattning. Då han, genom sitt arbete, träffar de flesta i området så kan han säkerligen peka gruppen mot nya quests."]
 }

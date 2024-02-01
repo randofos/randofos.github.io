@@ -1,5 +1,5 @@
 {
-  "title": "Ormos of Darmos",
+  "title": "Ormos av Darmos",
   "type":  "characters",
   "statistics": {
     "Ålder":        "71",
@@ -8,5 +8,8 @@
     "Personlighet": "Vis, Återhållsam, Livserfaren, Konservativ",
     "Agenda":       "Anser att utvecklingen med gruvan rubbar den balans som etablerats i regionen."
   },
-  "content": []
+  "content": [
+    "Ormos av Darmos är en del i trefaldigheten, och representerar intellektets röst. Han har sitt ursprung i <a href=\"locations_darmons_den.html\">Darmon's Den</a>, och är högt respekterad bland deras invånare.",
+    "Efternamnet är ett patronymikon från hans far, Darmos av Gormos. Råkar man i hasten säga 'Darmon' så kan han bli lätt irriterad, och en viss uppläxning kan förväntas."
+  ]
 }

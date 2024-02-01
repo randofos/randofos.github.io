@@ -22,7 +22,11 @@
         {%- endif %}
         {% if data['content'] -%}
         {%- for paragraph in data['content'] %}
+            {% if '<h2>' in paragraph -%}
+            {{ paragraph }}
+            {%- else %}
             <p>{{ paragraph }}</p>
+            {%- endif %}
         {%- endfor %}
         {%- endif %}
         {% if data['subpages'] -%}

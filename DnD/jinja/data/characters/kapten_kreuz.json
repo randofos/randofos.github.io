@@ -3,11 +3,11 @@
   "type":  "characters",
   "statistics": {
     "Ålder":        "51",
-    "Attityd":      "LG",
+    "Attityd":      "NG",
     "Plats":        "<a href=\"locations_faldor_bay.html\">Faldor Bay</a>",
     "Personlighet": "Stolt, Faderlig, Hjälpsam",
-    "Agenda":       "",
+    "Agenda":       "Vill hjälpa gruppen så långt det går.",
     "icon":         "kapten_kreuz.png"
   },
-  "content": []
+  "content": ["Kapten Kreuz är den person som tar gruppen till Sailor's Saint. Förutom att ta fångarna till ön så ansvarar han för att ta nästa last från gruvan till fastlandet. Han har haft detta jobb i många år, och kan en hel del om ön. Gruppen har därför mycket att vinna av att ta del av hans kunskap."]
 }

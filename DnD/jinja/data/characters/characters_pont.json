@@ -7,7 +7,7 @@
     "Attityd":      "\"LG\"",
     "Plats":        "<a href=\"locations_bards_throat.html\"></a>",
     "Personlighet": "Passiv, Fåordig, Charmig, Smått märklig",
-    "Agenda":       "Vill följa med gruppen till en människoby (där han kan stjäla smycken och blänkande ting)"
+    "Agenda":       "Vill följa med gruppen till en människoby."
   },
-  "content": []
+  "content": ["<i>Pont är en förklädd Bullywug, och har som avsikt att ta sig in bland människor för att stjäla deras ägodelar.</i>"]
 }
