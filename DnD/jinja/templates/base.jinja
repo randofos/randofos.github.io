@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="res/style.css">
     </head>
     <body>
-        {{ component.header(data['type']) }}
-        <h1 class="header-text">{{ data['title'] }}</h1>
+        {{ component.navbar(data['type']) }}
+        <header><h1>{{ data['title'] }}</h1></header>
         {% if data['statistics'] -%}
             {{ component.statistics(data['statistics']) }}
         {%- endif %}

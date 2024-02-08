@@ -28,7 +28,7 @@
         font-size: 14pt;
     }
 
-    header li {
+    nav li {
         font-size: 16pt;
     }
 }
@@ -62,7 +62,7 @@
         font-size: 16pt;
     }
 
-    header li {
+    nav li {
         display: inline;
         font-size: 20pt;
     }
@@ -98,7 +98,7 @@
         max-width: 1600px;
     }
 
-    header li {
+    nav li {
         display: inline;
         font-size: 32pt;
     }
@@ -140,7 +140,7 @@ ul {
 div {
     padding: 25px;
     background-color: peachpuff;
-    box-shadow: 15px 15px burlywood;
+    box-shadow: 5px 5px 0px 10px burlywood;
     outline: 10px peachpuff solid;
     border: 5px firebrick double;
 }
@@ -151,7 +151,7 @@ div img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border-bottom: 5px firebrick double;
+    border-bottom: 5px burlywood solid;
 }
 
 body {
@@ -172,26 +172,26 @@ main img {
     object-fit: cover;
 }
 
-header {
+nav {
     padding: 15px 0px;
     border-bottom: 3px burlywood solid;
 }
 
-header ul, div ul {
+nav ul, div ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-header li a {
+nav li a {
     color: #281010;
     padding: 10px 50px 10px 0px;
 }
 
-header li a:active {
+nav li a:active {
     color: firebrick !important;
 }
 
-header li a:hover {
+nav li a:hover {
     color: firebrick !important;
 }

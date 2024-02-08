@@ -1,18 +1,20 @@
 {
   "title": "Faldor Bay",
   "type":  "locations",
+  "main_img": "faldor_bay",
   "statistics": {
     "Miljö":       "Kustväder",
     "Storlek":     "By",
-    "Karaktärer":  "<a href=\"characters_glay.html\">Glay</a>, <a href=\"characters_kapten_kreuz.html\">Kapten Kreuz</a>, <a href=\"characters_miron.html\">Godsherre Miron</a>",
-    "Platser":     "Hamnen, Godshuset, Glays Pubb, Kapten Kreuzs hem",
-    "Fiendetyper": "Råtta, Kobold"
+    "Karaktärer":  "<a href=\"characters_glay.html\">Glay</a>, <a href=\"characters_kapten_kreuz.html\">Kapten Kreuz</a>, <a href=\"characters_miron.html\">Godsherre Miron</a>, <a href=\"characters_moder_lisa.html\">Moder Lisa</a>",
+    "Platser":     "Hamnen, <a href=\"res/img/storage_unit_24x24.png\">Godshuset</a>, Glays Pubb, Kapten Kreuzs hem, <a href=\"res/img/lisas_farm_26x26.png\">Lisas gård</a>",
+    "Fiendetyper": "Coastal (Crab, Giant Crab, Kobold, Poisonous Snake, Merfolk, Giant Lizard, Giant wolf spider, Winged Kobold, Scout, Giant Eagle, Giant Toad)"
   },
   "content": [
     "Faldor bay är dörren utåt för ön, då majoriteten av all transport sätter sitt ankare här. Platsen är inte särskilt stor, och få personer bor här, men det går ändå att hitta en plats att sova för natten.",
     "Det löper ut en enda väg från Faldor Bay som tar en till <a href=\"locations_thorndale.html\">Thorndale</a>, som är en knytpunkt för resterande vägar inåt land.",
+    "<a href=\"characters_moder_lisa.html\">Moder Lisa</a> bor här med sina två söner, Charlie och Edmund. Hon har haft problem med att råttor äter av hennes vinterförvaring av grödor, och är villig att betala en slant för någon som kan hjälpa henne att garantera maten till vintern.",
     "<h2>Första intryck</h2>",
-    "Ni ser först ett torn längs kusten. Sedan skymtas pirens vädrade träfundament och de vitmålade väggarna med blåa knutar. Solen lyser på med en välkomnande intensitet, vågorna skvalpar lätt, och dess reflektioner slänger dansande ränder på väggarna. Någon enstaka fiskmås kan skymtas ovanför, och ett par lagerarbetare kommer gåendes på bryggan inför eran stundande ankring.",
+    "Ni ser först ett par torn längs kusten. Sedan skymtas pirens vädrade träfundament och de vitmålade väggarna med blåa knutar. Solen lyser på med en välkomnande intensitet, vågorna skvalpar lätt, och dess reflektioner slänger dansande ränder på väggarna. Någon enstaka fiskmås kan skymtas ovanför, och ett par lagerarbetare kommer gåendes på bryggan inför eran stundande ankring.",
     "<b>Perception >= 15</b><br><i>I ögonvrån kan ni skymta en röd, något mindre varelse som i rask takt tar sig in i godshusets lokaler.</i>"
   ]
 }
