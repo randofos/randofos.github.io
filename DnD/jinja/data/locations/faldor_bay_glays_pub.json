@@ -1,0 +1,13 @@
+{
+  "title": "Glay's Pub",
+  "type":  "locations",
+  "statistics": {
+    "Miljö":       "Inomhus",
+    "Storlek":     "Hus",
+    "Karaktärer":  "<a href=\"characters_glay.html\">Glay</a>",
+    "Plats":       "<a href=\"locations_faldor_bay.html\">Faldor Bay</a>"
+  },
+  "content": [
+    "Ni kommer in till en ganska gemytlig plats. Blottade träbalkar håller upp övervåningen. De vitmålade väggarna är täckta av diverse rostiga artefakter och krigsbyten. Ett par återkommande karaktärer sitter ihopklumpade kring runda bord vid pubbens vråer. Rakt framåt syns en avlång trädick, och bakom den står den man som gett namn till stället."
+  ]
+}

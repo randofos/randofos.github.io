@@ -1,0 +1,14 @@
+{
+  "title": "Storage Unit",
+  "type":  "locations",
+  "statistics": {
+    "Miljö":       "Inomhus",
+    "Storlek":     "Hus",
+    "Fiendetyper": "Kobold, Rat, Giant Rat",
+    "Karta":       "<a href=\"res/img/storage_unit_24x24.png\">Battle Map</a>",
+    "Plats":       "<a href=\"locations_faldor_bay.html\">Faldor Bay</a>"
+  },
+  "content": [
+    "När ni öppnar dörren så blottar sig en dunkel lokal. Diverse lådor och bråte har hastigt staplats för att täcka fönstrena. Luften är lätt fuktig, och en doft av svavel gör att det svider lätt i lungorna."
+  ]
+}

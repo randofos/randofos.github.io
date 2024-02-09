@@ -1,0 +1,13 @@
+{
+  "title": "Kreuz's Home",
+  "type":  "locations",
+  "statistics": {
+    "Miljö":       "Inomhus",
+    "Storlek":     "Hus",
+    "Karaktärer":  "<a href=\"characters_kapten_kreuz.html\">Captain Kreuz</a>",
+    "Plats":       "<a href=\"locations_faldor_bay.html\">Faldor Bay</a>"
+  },
+  "content": [
+    "Ni slås av hur luftigt hans hem är. Det är högt i tak, och en spiraltrappa leder upp till en innerbalkong nära ett stort, rundat fönster. Hans säng är strategiskt placerad vid fönstret, så att han alltid kan somna till utsikten av havet."
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "title": "Moder Lisa",
+  "title": "Mother Lisa",
   "type":  "characters",
   "statistics": {
     "Ålder":        "36",
@@ -10,7 +10,10 @@
     "icon":         "moder_lisa.png"
   },
   "content": [
-    "Moder Lisa är i desperat behov av någon som kan lösa det råttproblem som hotar att förstöra hennes grödförråd inför vintern.<br>Hennes största oro är hur hennes barn ska klara sig utan en säker källa till mat.",
-    "Hon äger inte mycket, men kan unna äventyrarna ett guldmynt vardera för besväret."
+    "Mother Lisa bor ett enkelt liv på en gård utanför <a href=\"locations_faldor_bay.html\">Faldor Bay</a>. Hon lever där med sina två söner, Charlie och Edmund. Hennes man, tillika barnens far, är inkallad för att arbeta på Duke's Port, som många arbetsdugliga män är i området.",
+    "Hon är i desperat behov av någon som kan lösa det råttproblem som hotar att förstöra hennes grödförråd inför vintern.<br>Hennes största oro är hur hennes barn ska klara sig utan en säker källa till mat.",
+    "Hon äger inte mycket, men kan unna äventyrarna ett guldmynt vardera för besväret.",
+    "<h2>Uppdatering</h2>",
+    "Efter att gruppen har hjälpt Lisa med hennes råttproblem så kan hon återgå till en stillsam vardag på gården."
   ]
 }
