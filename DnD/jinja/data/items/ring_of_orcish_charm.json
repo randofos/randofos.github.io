@@ -4,7 +4,7 @@
   "statistics": {
     "Typ":      "Ring, Cursed",
     "Plats":    "<a href=\"locations_wizards_hideout.html\"></a>",
-    "Övrigt":   "Denna ring gör ens försök till övertygan att verka hotfullt, oavsett kontext eller underliggande ord. När användaren försöker göra en Ability Check med Persuasion eller Deception så blir istället till en Intimidation Check med en extra +3 bonus."
+    "Övrigt":   "Denna ring gör ens försök till övertygan att verka hotfullt, oavsett kontext eller underliggande ord. När användaren försöker göra en Ability Check med Persuasion eller Deception så blir det istället till en Intimidation Check med en extra +3 bonus."
   },
   "content": [
     ""
