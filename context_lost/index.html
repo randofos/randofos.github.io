@@ -112,10 +112,11 @@ body {
 <script src="index.js"></script>
 <script>
 
+// We set the WebGL context attributes manually before starting the engine.
 const webGLContextAttributes = {
 	alpha: false,
 	antialias: false,
-	depth: true,
+	depth: false, // default: true
 	desynchronized: false,
 	failIfMajorPerformanceCaveat: false,
 	powerPreference: "default",
@@ -126,6 +127,7 @@ const webGLContextAttributes = {
 }
 var canvas = document.getElementById('canvas');
 canvas.getContext("webgl2", webGLContextAttributes); // We instantiate the context with our custom attributes.
+console.log(canvas.getContext("webgl2").getContextAttributes());
 
 const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":15472,"index.wasm":52126319},"focusCanvas":true,"gdextensionLibs":[]};
 const GODOT_THREADS_ENABLED = false;

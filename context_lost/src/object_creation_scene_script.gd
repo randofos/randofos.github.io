@@ -1,42 +1,46 @@
 extends Control
 
-@onready var grid_container    = find_child("GridContainer") as GridContainer
+@onready var grid_container    = find_child("ObjectGrid") 	 as GridContainer
 @onready var object_options	   = find_child("ObjectOptions") as OptionButton
 @onready var auto_check_toggle = find_child("AutoCheck")   	 as CheckButton
 @onready var add_button 	   = find_child("AddButton")   	 as Button
 @onready var clear_button 	   = find_child("ClearButton") 	 as Button
-@onready var debug_label  	   = find_child("DebugLabel")  	 as Label
+@onready var grid_label  	   = find_child("GridLabel")  	 as Label
 @onready var amount_label 	   = find_child("AmountLabel") 	 as Label
 
 var texture := preload("res://icon.svg")
 
 var classes := [
+	Panel,
+	StyleBoxEmptyPanel,
+	StyleBoxLinePanel,
+	StyleBoxTexturePanel,
 	Control,
 	Label,
 	Button,
 	TextureButton,
 	ColorRect,
 	TextureRect,
-	Panel,
-	StyleBoxEmptyPanel,
-	StyleBoxLinePanel,
-	StyleBoxTexturePanel
 ]
 var curr_class = classes[0]
 
-var amount_to_add := 2
-var tween 		  : Tween
+var amount_to_add := 1:
+	set(new_amount):
+		amount_to_add 	  = new_amount
+		amount_label.text = "Amount: " + str(amount_to_add)
+var tween : Tween
 
 
 func _ready() -> void:
 	object_options.item_selected.connect(_class_selected)
 	add_button    .pressed		.connect(_add_objects)
 	clear_button  .pressed		.connect(_clear_objects)
-	amount_label.text = str(amount_to_add)
+	
 	for c in classes:
 		if not c in [StyleBoxEmptyPanel, StyleBoxLinePanel, StyleBoxTexturePanel]:
 			object_options.add_item(c.new().get_class())
 		else:
+			# Custom classes won't return their extended class name with get_class()
 			if c == StyleBoxEmptyPanel:
 				object_options.add_item("StyleBoxEmptyPanel")
 			elif c == StyleBoxLinePanel:
@@ -82,21 +86,21 @@ func _add_objects() -> void:
 			"TextureRect":
 				object.texture = texture
 		grid_container.add_child(object)
-	debug_label.text = "Objects in grid: " + str(grid_container.get_child_count())
+	grid_label.text = "Objects in grid: " + str(grid_container.get_child_count())
 
 
 func _clear_objects() -> void:
 	for child in grid_container.get_children():
 		child.queue_free()
 		grid_container.remove_child(child)
-	debug_label.text = "Objects in grid: " + str(grid_container.get_child_count())
+	grid_label.text = "Objects in grid: " + str(grid_container.get_child_count())
 
 
 func _on_reduce_button_pressed() -> void:
-	amount_to_add 	  = clamp(amount_to_add / 2, 2, 4096)
-	amount_label.text = str(amount_to_add)
+	amount_to_add 	  = clamp(amount_to_add / 2, 1, 4096)
+	#amount_label.text = "Amount: " + str(amount_to_add)
 
 
 func _on_increase_button_pressed() -> void:
-	amount_to_add 	  = clamp(amount_to_add * 2, 2, 4096)
-	amount_label.text = str(amount_to_add)
+	amount_to_add 	  = clamp(amount_to_add * 2, 1, 4096)
+	#amount_label.text = "Amount: " + str(amount_to_add)
