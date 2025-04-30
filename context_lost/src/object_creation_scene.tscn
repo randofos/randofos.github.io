@@ -1,8 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://go3djtyubwbd"]
+[gd_scene load_steps=2 format=3 uid="uid://go3djtyubwbd"]
 
 [ext_resource type="Script" uid="uid://cbm74k62vksjq" path="res://object_creation_scene_script.gd" id="1_g3wga"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fh81t"]
 
 [node name="ObjectCreationScene" type="Control"]
 layout_mode = 3
@@ -29,7 +27,6 @@ layout_mode = 2
 [node name="ObjectScroll" type="ScrollContainer" parent="PanelCenter/PanelRows"]
 custom_minimum_size = Vector2(500, 350)
 layout_mode = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_fh81t")
 
 [node name="GridCenter" type="CenterContainer" parent="PanelCenter/PanelRows/ObjectScroll"]
 layout_mode = 2
