@@ -9,7 +9,6 @@ extends Control
 @onready var amount_label 	   = find_child("AmountLabel") 	 as Label
 
 var texture := preload("res://icon.svg")
-
 var classes := [
 	Panel,
 	StyleBoxEmptyPanel,
@@ -23,7 +22,6 @@ var classes := [
 	TextureRect,
 ]
 var curr_class = classes[0]
-
 var amount_to_add := 1:
 	set(new_amount):
 		amount_to_add 	  = new_amount
@@ -32,9 +30,8 @@ var tween : Tween
 
 
 func _ready() -> void:
-	object_options.item_selected.connect(_class_selected)
-	add_button    .pressed		.connect(_add_objects)
-	clear_button  .pressed		.connect(_clear_objects)
+	add_button  .pressed.connect(_add_objects)
+	clear_button.pressed.connect(_clear_objects)
 	
 	for c in classes:
 		if not c in [StyleBoxEmptyPanel, StyleBoxLinePanel, StyleBoxTexturePanel]:
@@ -47,26 +44,6 @@ func _ready() -> void:
 				object_options.add_item("StyleBoxLinePanel")
 			elif c == StyleBoxTexturePanel:
 				object_options.add_item("StyleBoxTexturePanel")
-
-
-func _on_auto_check_toggled(toggled_on: bool) -> void:
-	add_button	.disabled = toggled_on
-	clear_button.disabled = toggled_on
-	
-	if not toggled_on and tween:
-		tween.kill()
-		tween = null
-	if toggled_on:
-		_clear_objects()
-		tween = create_tween()
-		tween.set_parallel(false)
-		tween.set_loops()
-		tween.tween_callback(_add_objects)	.set_delay(0.25)
-		tween.tween_callback(_clear_objects).set_delay(0.25)
-
-
-func _class_selected(index: int) -> void:
-	curr_class = classes[index]
 
 
 func _add_objects() -> void:
@@ -96,11 +73,29 @@ func _clear_objects() -> void:
 	grid_label.text = "Objects in grid: " + str(grid_container.get_child_count())
 
 
+func _on_auto_check_toggled(toggled_on: bool) -> void:
+	add_button	.disabled = toggled_on
+	clear_button.disabled = toggled_on
+	
+	if not toggled_on and tween:
+		tween.kill()
+		tween = null
+	if toggled_on:
+		_clear_objects()
+		tween = create_tween()
+		tween.set_parallel(false)
+		tween.set_loops()
+		tween.tween_callback(_add_objects)	.set_delay(0.25)
+		tween.tween_callback(_clear_objects).set_delay(0.25)
+
+
+func _class_selected(index: int) -> void:
+	curr_class = classes[index]
+
+
 func _on_reduce_button_pressed() -> void:
-	amount_to_add 	  = clamp(amount_to_add / 2, 1, 4096)
-	#amount_label.text = "Amount: " + str(amount_to_add)
+	amount_to_add = clamp(amount_to_add / 2, 1, 4096)
 
 
 func _on_increase_button_pressed() -> void:
-	amount_to_add 	  = clamp(amount_to_add * 2, 1, 4096)
-	#amount_label.text = "Amount: " + str(amount_to_add)
+	amount_to_add = clamp(amount_to_add * 2, 1, 4096)

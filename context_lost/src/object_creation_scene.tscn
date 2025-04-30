@@ -111,6 +111,7 @@ layout_mode = 2
 size_flags_horizontal = 0
 text = "Automatic"
 
+[connection signal="item_selected" from="ButtonMargin/ButtonRows/ObjectChoiceRow/ObjectOptions" to="." method="_class_selected"]
 [connection signal="pressed" from="ButtonMargin/ButtonRows/AmountRow/IncreaseButton" to="." method="_on_increase_button_pressed"]
 [connection signal="pressed" from="ButtonMargin/ButtonRows/AmountRow/ReduceButton" to="." method="_on_reduce_button_pressed"]
 [connection signal="toggled" from="ButtonMargin/ButtonRows/AutoCheck" to="." method="_on_auto_check_toggled"]

@@ -93,43 +93,25 @@ body {
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
 
-</head>
-<body>
-<canvas id="canvas">
-	Your browser does not support the canvas tag.
-</canvas>
+	</head>
+	<body>
+		<canvas id="canvas">
+			Your browser does not support the canvas tag.
+		</canvas>
 
-<noscript>
-	Your browser does not support JavaScript.
-</noscript>
+		<noscript>
+			Your browser does not support JavaScript.
+		</noscript>
 
-<div id="status">
-	<img id="status-splash" class="show-image--true fullsize--true use-filter--true" src="index.png" alt="">
-	<progress id="status-progress"></progress>
-	<div id="status-notice"></div>
-</div>
+		<div id="status">
+			<img id="status-splash" class="show-image--true fullsize--true use-filter--true" src="index.png" alt="">
+			<progress id="status-progress"></progress>
+			<div id="status-notice"></div>
+		</div>
 
-<script src="index.js"></script>
-<script>
-
-// We set the WebGL context attributes manually before starting the engine.
-const webGLContextAttributes = {
-	alpha: false,
-	antialias: false,
-	depth: false, // default: true
-	desynchronized: false,
-	failIfMajorPerformanceCaveat: false,
-	powerPreference: "default",
-	premultipliedAlpha: true,
-	preserveDrawingBuffer: false, // default: true
-	stencil: false,
-	xrCompatible: false,
-}
-var canvas = document.getElementById('canvas');
-canvas.getContext("webgl2", webGLContextAttributes); // We instantiate the context with our custom attributes.
-console.log(canvas.getContext("webgl2").getContextAttributes());
-
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":15472,"index.wasm":52126319},"focusCanvas":true,"gdextensionLibs":[]};
+		<script src="index.js"></script>
+		<script>
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":14944,"index.wasm":52126319},"focusCanvas":true,"gdextensionLibs":[]};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
